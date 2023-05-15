@@ -5,8 +5,8 @@ import { Post } from 'src/app/model/post';
 
 @Component({
   selector: 'app-post',
-  templateUrl: './post.component.html',
-  styleUrls: ['./post.component.css']
+  templateUrl: './home.html',
+  styleUrls: ['./home.css']
 })
 export class PostComponent implements OnInit {
   posts: Post[] = [];

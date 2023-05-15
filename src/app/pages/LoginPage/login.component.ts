@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
 
     this.authService.signIn(data.email, data.password)
       .subscribe(() => {
-        this.router.navigate(['/lista']);
+        this.router.navigate(['/home']);
       });
   }
 }
